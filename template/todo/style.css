@@ -1,0 +1,58 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+p {color: orange; font-weight: bold;}
+
+form{margin-bottom: 0}
+select{margin-right: 5px;}
+
+.main-reg {
+	border: 1px solid;
+	width: 400px;
+}
+
+.main-reg label{
+	float: left;
+}
+
+.main-reg div{
+	margin-bottom: 20px;
+}
+
+.main-reg input{
+	float: right;
+}
+
+.add-task {
+	margin-bottom: 20px; 
+	margin-right: 20px;
+	float: left;
+}
+
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.gray{background: #eee;}
+table td, table th{
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.orange {
+	color: orange;
+}
+
+.green {
+	color: green;
+}
+
+
+
